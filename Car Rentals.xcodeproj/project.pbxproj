@@ -13,6 +13,10 @@
 		5B3AFBC5272AE5DD00439E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3AFBC3272AE5DD00439E5E /* Main.storyboard */; };
 		5B3AFBC7272AE5DF00439E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3AFBC6272AE5DF00439E5E /* Assets.xcassets */; };
 		5B3AFBCA272AE5DF00439E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3AFBC8272AE5DF00439E5E /* LaunchScreen.storyboard */; };
+		5B3AFBD4272AF28E00439E5E /* CarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AFBD3272AF28E00439E5E /* CarsTableViewCell.swift */; };
+		5B3AFBD6272AF41300439E5E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AFBD5272AF41300439E5E /* DetailViewController.swift */; };
+		5B3AFBD8272B64D100439E5E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AFBD7272B64D100439E5E /* Car.swift */; };
+		5B3AFBDA272B776F00439E5E /* PicturesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AFBD9272B776F00439E5E /* PicturesViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5B3AFBC6272AE5DF00439E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B3AFBC9272AE5DF00439E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3AFBCB272AE5DF00439E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3AFBD3272AF28E00439E5E /* CarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewCell.swift; sourceTree = "<group>"; };
+		5B3AFBD5272AF41300439E5E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5B3AFBD7272B64D100439E5E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		5B3AFBD9272B776F00439E5E /* PicturesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				5B3AFBC6272AE5DF00439E5E /* Assets.xcassets */,
 				5B3AFBC8272AE5DF00439E5E /* LaunchScreen.storyboard */,
 				5B3AFBCB272AE5DF00439E5E /* Info.plist */,
+				5B3AFBD3272AF28E00439E5E /* CarsTableViewCell.swift */,
+				5B3AFBD5272AF41300439E5E /* DetailViewController.swift */,
+				5B3AFBD7272B64D100439E5E /* Car.swift */,
+				5B3AFBD9272B776F00439E5E /* PicturesViewCell.swift */,
 			);
 			path = "Car Rentals";
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				5B3AFBC2272AE5DD00439E5E /* ViewController.swift in Sources */,
 				5B3AFBBE272AE5DD00439E5E /* AppDelegate.swift in Sources */,
 				5B3AFBC0272AE5DD00439E5E /* SceneDelegate.swift in Sources */,
+				5B3AFBD6272AF41300439E5E /* DetailViewController.swift in Sources */,
+				5B3AFBD8272B64D100439E5E /* Car.swift in Sources */,
+				5B3AFBDA272B776F00439E5E /* PicturesViewCell.swift in Sources */,
+				5B3AFBD4272AF28E00439E5E /* CarsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
